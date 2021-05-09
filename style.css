@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Open+Sans:wght@600&display=swap');
+*{
+    font-family: font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #fafcc2;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: white;
+    width: 700px;
+    display: flex;
+    flex-direction:column;
+    padding: 50px;
+    border-radius: 30px;
+    align-items: center;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+    ;
+}
+.col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container> .row{
+justify-content: space-evenly;
+width:100%;
+}
+.profile-icon{
+    border-radius: 50%;
+    border: 1.5px solid bisque;
+}
+.name{
+    margin: 20px 0;
+    font-size: large;
+    font-weight: bold;
+}
+.round-runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+#striker-button{
+    width:100px;
+    border-radius:35%;
+    border:none;
+    font-size: large;
+    color: white;
+    background: linear-gradient(120deg,#ff414d,#ffaa71);
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
+#striker-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
